@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xs:element name="katalog">
+    <xs:complexType mixed="true">
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="notebook"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="notebook">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="Vyrobce"/>
+        <xs:element ref="Typ"/>
+        <xs:element ref="Barva"/>
+        <xs:element ref="Prodej"/>
+        <xs:element ref="Displej"/>
+        <xs:element ref="Rozmery"/>
+        <xs:element ref="Hmotnost"/>
+        <xs:element ref="Baterie"/>
+        <xs:element ref="Vykon"/>
+        <xs:element ref="Vystupy"/>
+        <xs:element ref="Vybava"/>
+        <xs:element ref="OS"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Vyrobce" type="xs:NCName"/>
+  <xs:element name="Typ" type="xs:string"/>
+  <xs:element name="Barva" type="xs:NCName"/>
+  <xs:element name="Prodej">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="Cena"/>
+        <xs:element ref="Alza"/>
+        <xs:element ref="Mall"/>
+        <xs:element ref="CZC.cz"/>
+        <xs:element ref="Datart"/>
+        <xs:element ref="Mironet"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Cena">
+    <xs:complexType>
+      <xs:simpleContent>
+        <xs:extension base="xs:integer">
+          <xs:attribute name="mena" use="required" type="xs:NCName"/>
+        </xs:extension>
+      </xs:simpleContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Alza" type="xs:NCName"/>
+  <xs:element name="Mall" type="xs:NCName"/>
+  <xs:element name="CZC.cz" type="xs:NCName"/>
+  <xs:element name="Datart" type="xs:NCName"/>
+  <xs:element name="Mironet" type="xs:NCName"/>
+  <xs:element name="Displej">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="Uhlopricka"/>
+        <xs:element ref="Rozliseni"/>
+        <xs:element ref="TypPanelu"/>
+        <xs:element ref="TypDispleje"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Uhlopricka" type="xs:string"/>
+  <xs:element name="Rozliseni" type="xs:NMTOKEN"/>
+  <xs:element name="TypPanelu" type="xs:NCName"/>
+  <xs:element name="TypDispleje" type="xs:NCName"/>
+  <xs:element name="Rozmery">
+    <xs:complexType>
+      <xs:attribute name="Hloubka" use="required" type="xs:decimal"/>
+      <xs:attribute name="Výška" use="required" type="xs:decimal"/>
+      <xs:attribute name="Šířka" use="required" type="xs:integer"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Hmotnost">
+    <xs:complexType>
+      <xs:attribute name="Hmotnost" use="required" type="xs:integer"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Baterie">
+    <xs:complexType>
+      <xs:attribute name="Kapacita" use="required" type="xs:integer"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Vykon">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="FrekvenceProcesoru"/>
+        <xs:element ref="PocetJader"/>
+        <xs:element ref="TypProcesoru"/>
+        <xs:element ref="PametRAM"/>
+        <xs:element ref="TypPameti"/>
+        <xs:element ref="Harddisk"/>
+        <xs:element ref="TypHDD"/>
+        <xs:element ref="GrafickaKarta"/>
+        <xs:element ref="TypGrafiky"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="FrekvenceProcesoru">
+    <xs:complexType>
+      <xs:simpleContent>
+        <xs:extension base="xs:integer">
+          <xs:attribute name="jednotky" use="required" type="xs:NCName"/>
+        </xs:extension>
+      </xs:simpleContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="PocetJader">
+    <xs:complexType>
+      <xs:simpleContent>
+        <xs:extension base="xs:integer">
+          <xs:attribute name="rozmezi" use="required" type="xs:NMTOKEN"/>
+        </xs:extension>
+      </xs:simpleContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="TypProcesoru">
+    <xs:complexType mixed="true">
+      <xs:attribute name="vyrobce" use="required" type="xs:NCName"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="PametRAM">
+    <xs:complexType>
+      <xs:simpleContent>
+        <xs:extension base="xs:integer">
+          <xs:attribute name="velikost" use="required" type="xs:NCName"/>
+        </xs:extension>
+      </xs:simpleContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="TypPameti" type="xs:NCName"/>
+  <xs:element name="Harddisk">
+    <xs:complexType>
+      <xs:simpleContent>
+        <xs:extension base="xs:integer">
+          <xs:attribute name="velikost" use="required" type="xs:NCName"/>
+        </xs:extension>
+      </xs:simpleContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="TypHDD" type="xs:string"/>
+  <xs:element name="GrafickaKarta">
+    <xs:complexType>
+      <xs:simpleContent>
+        <xs:extension base="xs:integer">
+          <xs:attribute name="velikost" use="required" type="xs:NCName"/>
+        </xs:extension>
+      </xs:simpleContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="TypGrafiky" type="xs:NCName"/>
+  <xs:element name="Vystupy">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="USB2.0"/>
+        <xs:element ref="USB3.0"/>
+        <xs:element ref="HDMI"/>
+        <xs:element ref="DVI"/>
+        <xs:element ref="VGA"/>
+        <xs:element ref="Jack3.5mm"/>
+        <xs:element ref="LAN"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="USB2.0" type="xs:NCName"/>
+  <xs:element name="USB3.0" type="xs:NCName"/>
+  <xs:element name="HDMI" type="xs:NCName"/>
+  <xs:element name="DVI" type="xs:NCName"/>
+  <xs:element name="VGA" type="xs:NCName"/>
+  <xs:element name="Jack3.5mm" type="xs:NCName"/>
+  <xs:element name="LAN" type="xs:NCName"/>
+  <xs:element name="Vybava">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="Wifi"/>
+        <xs:element ref="Bluetooth"/>
+        <xs:element ref="OperacniSystem"/>
+        <xs:element ref="PodsvicenaKlavesnice"/>
+        <xs:element ref="CteckaKaret"/>
+        <xs:element ref="NumerickaKlavesnice"/>
+        <xs:element ref="OptickaMechanika"/>
+        <xs:element ref="CteckaOtiskuPrstu"/>
+        <xs:element ref="DotykovyDisplej"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Wifi" type="xs:NCName"/>
+  <xs:element name="Bluetooth" type="xs:NCName"/>
+  <xs:element name="OperacniSystem" type="xs:NCName"/>
+  <xs:element name="PodsvicenaKlavesnice" type="xs:NCName"/>
+  <xs:element name="CteckaKaret" type="xs:NCName"/>
+  <xs:element name="NumerickaKlavesnice" type="xs:NCName"/>
+  <xs:element name="OptickaMechanika" type="xs:NCName"/>
+  <xs:element name="CteckaOtiskuPrstu" type="xs:NCName"/>
+  <xs:element name="DotykovyDisplej" type="xs:NCName"/>
+  <xs:element name="OS">
+    <xs:complexType>
+      <xs:attribute name="TypOS" use="required" type="xs:NCName"/>
+      <xs:attribute name="VerzeOS" use="required"/>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

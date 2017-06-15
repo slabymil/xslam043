@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <title>Značkovací jazyky</title>
+        </head>
+        <body>
+        	<header>
+        		Dokumentace k projektu - Katalog notebooků
+        	</header>
+        	<nav id="menu">
+        	<h2 style="text-decoration:bold;">Obsah</h2>
+        	 <ul>
+                <li><a href="#uvod" style="text-decoration:none">Úvod</a></li>
+                <li><a href="#metodika" style="text-decoration:none">Postup</a></li>
+                <li><a href="#popis" style="text-decoration:none">Popis</a></li>
+                <li><a href="#elementy" style="text-decoration:none">Elementy</a></li>
+                <li><a href="#zaver" style="text-decoration:none">Závěr</a></li>    
+                
+            </ul>
+        </nav>
+        <main>
+        	<article>
+        		<section id="uvod">
+        			<h2 style="text-decoration: bold;">Úvod</h2>
+        			<p>\Projektem z předmětu značkovací jazyky byla tvorba XML souboru, dále transformace XSL a následná tvorba XSD a HTML soubor obsahující dokumentaci.</p>
+        		</section>
+        		<section id="metodika">
+        			<h2 style="text-decoration: bold">Postup</h2>
+        			<p>Pro tvorbu jsem využil program <a href="https://www.oxygenxml.com/">Oxygen XML editors</a>, který mi umožnil i následnou konverzi do XSD schématu a i transformaci do XSL, která byla kontrolována pomocí webu <a href="https://www.w3schools.com/xml/xsl_intro.asp">w3schools.</a></p>
+        		</section>
+        		<section id="Popis">
+        			<h2 style="text-decoration: bold;">Popis</h2>
+        			<p>Za projekt jsem si vybral katalog notebooků, který obsahuje technické specifikace jednotlivých notebooků, vycházel jsem z online zdrojů jako jsou <a href="https://www.alza.cz">Alza</a>, <a href="https://www.mall.cz">Mall</a>, <a href="https://www.czc.cz/">CZC.cz</a>apod.</p>
+        		</section>
+        		<section id="elementy">
+        			<h2 style="text-decoration: bold;">Elementy</h2>
+        			<table border 1>
+        			<tr>
+        				<th>Element</th>
+        				<th>Popis</th>
+        			</tr>
+        			<tr>
+        				<td>Vyrobce</td>
+        				<td>značka notebooku</td>
+        			</tr>
+        			<tr>
+        				<td>Typ</td>
+        				<td>označení typu notebooku</td>
+        			</tr>
+        			<tr>
+        				<td>Barva</td>
+        				<td>V jaké barvě se notebook vyrábí</td>
+        			</tr>
+        			</table>
+        			<h3>Prodej</h3>
+        			<table border 1>
+        			<tr>
+        				<th>Element</th>
+        				<th>Popis</th>
+        			</tr>
+        			<tr>
+        				<th>Cena</th>
+        				<th>pořizovací cena v kč</th>
+        			</tr>
+        			<tr>
+        				<th>Alza</th>
+        				<th>Určuje zda se notebook dá v daném obchodě zakoupit - ano/ne</th>
+        			</tr>
+        			</table>
+        			<h3>Displej</h3>
+        			<table border 1>
+          			<tr>
+        				<th>Element</th>
+        				<th>Popis</th>
+        			</tr>
+        			<tr>
+        				<th>TypPanelu</th>
+        				<th>Jaký typ panelu notebook obsahuhje - IPS/TN/OLED</th>
+        			</tr>
+        			<tr>
+        				<th>Uhlopricka</th>
+        				<th>Úhlopříčka v palcích</th>
+        			</tr>
+        			<tr>
+        				<th>Rozliseni</th>
+        				<th>Rozlišení v pixelech</th>
+        			</tr>
+        			<tr>
+        				<th>TypDispleje</th>
+        				<th>Jaký typ displeje notebook obsahuje - matný/lesklý/antireflexní</th>
+        			</tr>
+        			</table>
+        			<h3>Rozměry</h3>
+        			<table border 1>
+        				<tr>
+        					<th>Element</th>
+        					<th>Popis</th>
+        				</tr>
+        				<tr>
+        					<th>Rozmery</th>
+        					<th>Rozměry v milimetrech (výška, šířka, hloubka)</th>
+        				</tr>
+        			</table>
+        			<h3>Hmotnost</h3>
+        			<table border 1>
+        				<tr>
+        					<th>Element</th>
+        					<th>Popis</th>
+        				</tr>
+        				<tr>
+        					<th>Hmotnost</th>
+        					<th>Váha notebooku v gramech</th>
+        				</tr>
+        			</table>
+        			<h3>Baterie</h3>
+        			<table border 1>
+        				<tr>
+        					<th>Element</th>
+        					<th>Popis</th>
+        				</tr>
+        				<tr>
+        					<th>Baterie</th>
+        					<th>Výdrž ve watt hodinách</th>
+        				</tr>
+        			</table>
+        			<h3>Výkon</h3>
+        			<table border 1>
+        				<tr>
+        					<th>Element</th>
+        					<th>Popis</th>
+        				</tr>
+        				<tr>
+        					<th>FrekvenceProcesoru</th>
+        					<th>Frekvence procesoru v mHz</th>
+        				</tr>
+        				<tr>
+        					<th>PocetJader</th>
+        					<th>Počet jader, které notebook obsahuje v rozmezí 1-8 jader</th>
+        				</tr>
+        				<tr>
+        					<th>TypProcesoru</th>
+        					<th>Značka a typ procesoru - Intel/AMD</th>
+        				</tr>
+        				<tr>
+        					<th>PametRAM</th>
+        					<th>Velikost celkové paměti v GB</th>
+        				</tr>
+        				<tr>
+        					<th>TypPameti</th>
+        					<th>Typ operačních pamětí - DDR3/DDR4</th>
+        				</tr>
+        				<tr>
+        					<th>Harddisk</th>
+        					<th>Velikost harddisku v GB</th>
+        				</tr>
+        				<tr>
+        					<th>TypHDD</th>
+        					<th>O jaký typ harddisku se jedná (HDD nebo SSD nebo kombinace)</th>
+        				</tr>
+        				<tr>
+        					<th>GrafickaKarta</th>
+        					<th>Velikost graficke karty v GB</th>
+        				</tr>
+        				<tr>
+        					<th>TypGrafiky</th>
+        					<th>Značka grafické karty - NVIDEA/AMD/Intel</th>
+        				</tr>
+        			</table>
+        			<h3>Výstupy</h3>
+        			<table border 1>
+        				<tr>
+        					<th>Element</th>
+        					<th>Popis</th>
+        				</tr>
+        				<tr>
+        					<th>USB2.0</th>
+        					<th>Zda notebook obsahuje výstup pro usb 2.0</th>
+        				</tr>
+        				<tr>
+        					<th>USB3.0</th>
+        					<th>Zda notebook obsahuje výstup pro usb 3.0</th>
+        				</tr>
+        				<tr>
+        					<th>HDMI</th>
+        					<th>Zda notebook obsahuje výstup pro HDMI</th>
+        				</tr>
+        				<tr>
+        					<th>DVI</th>
+        					<th>Zda notebook obsahuje výstup pro DVI</th>
+        				</tr>
+        				<tr>
+        					<th>VGA</th>
+        					<th>Zda notebook obsahuje výstup pro VGA</th>
+        				</tr>
+        				<tr>
+        					<th>Jack3.5mm</th>
+        					<th>Zda notebook obsahuje výstup pro jack 3.5mm</th>
+        				</tr>
+        				<tr>
+        					<th>LAN</th>
+        					<th>Zda notebook obsahuje výstup pro LAN</th>
+        				</tr>
+        			</table>
+        			<h3>Výbava</h3>
+        			<table border 1>
+        				<tr>
+        					<th>Element</th>
+        					<th>Popis</th>
+        				</tr>
+        				<tr>
+        					<th>Wifi</th>
+        					<th>Zda notebook obsahuje technologii wifi</th>
+        				</tr>
+        				<tr>
+        					<th>Bluetooth</th>
+        					<th>Zda notebook obsahuje technologii bluetooth</th>
+        				</tr>
+        				<tr>
+        					<th>OperacniSystem</th>
+        					<th>Zda notebook obsahuje predinstalovaný systém</th>
+        				</tr>
+        				<tr>
+        					<th>PodsvicenaKlavescni</th>
+        					<th>Zda notebook obsahuje podsvícenou klávesnici</th>
+        				</tr>
+        				<tr>
+        					<th>CteckaKaret</th>
+        					<th>Zda notebook obsahuje čtečku karet</th>
+        				</tr>
+        				<tr>
+        					<th>NumerickaKlavesnice</th>
+        					<th>Zda notebook obsahuje zabudovanou numerickou klávesnici</th>
+        				</tr>
+        				<tr>
+        					<th>OptickaMechanika</th>
+        					<th>Zda notebook obsahuje optickou mechaniku</th>
+        				</tr>
+        				<tr>
+        					<th>CteckaOtiskuPrstu</th>
+        					<th>Zda notebook obsahuje technologii čtečku otisku prstů</th>
+        				</tr>
+        				<tr>
+        					<th>DotykovyDisplej</th>
+        					<th>Zda notebook obsahuje technologii dotykového displeje</th>
+        				</tr>
+        			</table>
+        			<h3>OS</h3>
+        			<table border 1>
+        				<tr>
+        					<th>Element</th>
+        					<th>Popis</th>
+        				</tr>
+        				<tr>
+        					<th>OS</th>
+        					<th>Jaký operační systém a verzi daný notebook obsahuje</th>
+        				</tr>
+        			</table>
+        			<h3>Atributy</h3>
+        			<table border 1>
+        				<tr>
+        					<th>Atribut</th>
+        					<th>Popis</th>
+        				</tr>
+        				<tr>
+        					<th>mena</th>
+        					<th>Atribut určující cenu vyčíslenou v Kč</th>
+        				</tr>
+        				<tr>
+        					<th>Hloubka</th>
+        					<th>Atribut určující rozměr hloubky notebooku</th>
+        				</tr>
+        				<tr>
+        					<th>Výška</th>
+        					<th>Atribut určující rozměr výšky notebooku</th>
+        				</tr>
+        				<tr>
+        					<th>Šířka</th>
+        					<th>Atribut určující rozměr šířky notebooku</th>
+        				</tr> 
+        				<tr>
+        					<th>Hmotnost</th>
+        					<th>Atribut určující váhu notebooku</th>
+        				</tr>    
+        				<tr>
+        					<th>Kapacita</th>
+        					<th>Atribut určující kapacitu baterie</th>
+        				</tr>
+        				<tr>
+        					<th>jednotky</th>
+        					<th>Atribut určující číselnou jednotku u daného elementu</th>
+        				</tr>
+        				<tr>
+        					<th>rozmezi</th>
+        					<th>Atribut určující rozmezi daného elementu</th>
+        				</tr> 
+        				<tr>
+        					<th>vyrobce</th>
+        					<th>Atribut určující znacku pouziteho hardwaru</th>
+        				</tr> 
+        				<tr>
+        					<th>velikost</th>
+        					<th>Atribut určující u více elementů velikost hardwaru v GB</th>
+        				</tr>
+        				<tr>
+        					<th>TypOS</th>
+        					<th>Atribut určující typ operačního systému v notebooku</th>
+        				</tr>
+        				<tr>
+        					<th>VerzeOS</th>
+        					<th>Atribut určující verzi operačního systému obsaženou v notebooku</th>
+        				</tr>         				<
+        			</table>
+        		</section>
+        		<section id="zaver">
+        			<h2 style="text-decoration: bold">Závěr</h2>
+        			<p>Tento projekt mě naučil práci se značkovacími jazyky, tvorbu XML souborů a následné operace s tím spojené.</p>
+        		</section>
+        	</article>
+        </main>
+        <footer id="zapati" style="border-top:3px solid black;">
+                <table>
+                    <tr>
+                        <td>Milan Slabý</td>
+                        <td><a href="https://github.com/LiborKosek/Projekt">GitHub</a></td>
+                    </tr> 
+                </table>
+           </body>
+        </html>
+
+    

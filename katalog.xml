@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="katalog.xsl"?>
+<katalog> xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="katalog.xsd">
+    <notebook>
+    	<Vyrobce>Acer</Vyrobce>
+    	<Typ>Aspire F15 Black Aluminium</Typ>
+        <Barva>černá</Barva>
+    	<Prodej>
+    		<Cena mena="Kč">19990</Cena>
+    		<Alza>ano</Alza>
+    		<Mall>ano</Mall>
+    		<CZC.cz>ano</CZC.cz>
+    		<Datart>ano</Datart>
+    		<Mironet>ne</Mironet>
+    	</Prodej>
+    	<Displej>
+    	    <Uhlopricka>15.6</Uhlopricka>
+    	    <Rozliseni>1920x1080</Rozliseni>
+    		<TypPanelu>IPS</TypPanelu>
+    	    <TypDispleje>Matný</TypDispleje>
+    	</Displej>
+        <Rozmery Výška="29.2" Šířka="381" Hloubka="256"/>
+    	<Hmotnost Hmotnost="2400"/>
+    	<Baterie Kapacita="62"/>
+    	<Vykon>
+    	    <FrekvenceProcesoru jednotky="mHz">2500</FrekvenceProcesoru>
+    		<PocetJader rozmezi="1-8">2</PocetJader>
+    	    <TypProcesoru vyrobce="Intel">Intel Core i7 7500U</TypProcesoru>
+    		<PametRAM velikost="GB">8</PametRAM>
+    		<TypPameti>DDR4</TypPameti>
+    		<Harddisk velikost="GB">1128</Harddisk>
+    		<TypHDD>HDD + SSD</TypHDD>
+    		<GrafickaKarta velikost="GB">4</GrafickaKarta>
+    		<TypGrafiky>NVIDEA</TypGrafiky>
+    	</Vykon>
+    	<Vystupy>
+    		<USB2.0>ano</USB2.0>
+    		<USB3.0>ano</USB3.0>
+    		<HDMI>ano</HDMI>
+    		<DVI>ne</DVI>
+    		<VGA>ano</VGA>
+    		<Jack3.5mm>ano</Jack3.5mm>
+    		<LAN>ano</LAN>
+    	</Vystupy>
+    	<Vybava>
+    		<Wifi>ano</Wifi>
+    		<Bluetooth>ano</Bluetooth>
+    		<OperacniSystem>ano</OperacniSystem>
+    		<PodsvicenaKlavesnice>ne</PodsvicenaKlavesnice>
+    		<CteckaKaret>ano</CteckaKaret>
+    		<NumerickaKlavesnice>ano</NumerickaKlavesnice>
+    		<OptickaMechanika>ano</OptickaMechanika>
+    		<CteckaOtiskuPrstu>ne</CteckaOtiskuPrstu>
+    		<DotykovyDisplej>ne</DotykovyDisplej>
+    	</Vybava>
+        <OS TypOS="Windows" VerzeOS="10 Home"/>
+    </notebook>
+     <notebook>
+    	<Vyrobce>Lenovo</Vyrobce>
+    	<Typ>Legion Y720-15IKB</Typ>
+        <Barva>černá</Barva>
+    	<Prodej>
+    	    <Cena mena="Kč">42990</Cena>
+    		<Alza>ano</Alza>
+    		<Mall>ano</Mall>
+    		<CZC.cz>ano</CZC.cz>
+    		<Datart>ne</Datart>
+    		<Mironet>ano</Mironet>
+    	</Prodej>
+    	<Displej>
+    	    <Uhlopricka>15.6"</Uhlopricka>
+    	    <Rozliseni>1920x1080</Rozliseni>
+    		<TypPanelu>IPS</TypPanelu>
+    	    <TypDispleje>Antireflexní</TypDispleje>
+    	</Displej>
+         <Rozmery Výška="265" Šířka="380" Hloubka="25.8"/>
+         <Hmotnost Hmotnost="2600"/>
+    	<Baterie Kapacita="60"/>
+    	<Vykon>
+    	    <FrekvenceProcesoru jednotky="mHz">2800</FrekvenceProcesoru>
+    		<PocetJader rozmezi="1-8">4</PocetJader>
+    	    <TypProcesoru vyrobce="Intel">Intel Core i7 7700HQ</TypProcesoru>
+    	    <PametRAM velikost="GB">16</PametRAM>
+    	    <TypPameti>DDR4</TypPameti>
+    	    <Harddisk velikost="GB">1256</Harddisk>
+    	    <TypHDD>HDD + SSD</TypHDD>
+    	    <GrafickaKarta velikost="GB">6</GrafickaKarta>
+       		<TypGrafiky>NVIDEA</TypGrafiky>
+    	</Vykon>
+         <Vystupy>
+    		<USB2.0>ano</USB2.0>
+    		<USB3.0>ano</USB3.0>
+    		<HDMI>ano</HDMI>
+    		<DVI>ne</DVI>
+    		<VGA>ano</VGA>
+    		<Jack3.5mm>ano</Jack3.5mm>
+             <LAN>ano</LAN>
+    	</Vystupy>
+    	<Vybava>
+    		<Wifi>ano</Wifi>
+    		<Bluetooth>ano</Bluetooth>
+    		<OperacniSystem>ano</OperacniSystem>
+    		<PodsvicenaKlavesnice>ano</PodsvicenaKlavesnice>
+    		<CteckaKaret>ano</CteckaKaret>
+    		<NumerickaKlavesnice>ano</NumerickaKlavesnice>
+    		<OptickaMechanika>ano</OptickaMechanika>
+    		<CteckaOtiskuPrstu>ne</CteckaOtiskuPrstu>
+    		<DotykovyDisplej>ne</DotykovyDisplej>
+    	</Vybava>
+         <OS TypOS="Windows" VerzeOS="10 Home"/>
+    </notebook>
+     <notebook>
+    	<Vyrobce>ASUS</Vyrobce>
+    	<Typ>ZENBOOK UX410UA-GV017T</Typ>
+        <Barva>stříbrná</Barva>
+    	<Prodej>
+    	    <Cena mena="Kč">16990</Cena>
+    		<Alza>ano</Alza>
+    		<Mall>ano</Mall>
+    		<CZC.cz>ne</CZC.cz>
+    		<Datart>ne</Datart>
+    		<Mironet>ano</Mironet>
+    	</Prodej>
+    	<Displej>
+    	    <Uhlopricka>14"</Uhlopricka>
+    	    <Rozliseni>1920x1080</Rozliseni>
+    		<TypPanelu>IPS</TypPanelu>
+    	    <TypDispleje>Antireflexní</TypDispleje>
+    	</Displej>
+    	<Rozmery Výška="256" Šířka="323" Hloubka="223"/>
+    	<Hmotnost Hmotnost="1450"/>
+    	<Baterie Kapacita="48"/>
+    	<Vykon>
+    	    <FrekvenceProcesoru jednotky="mHz">2400</FrekvenceProcesoru>
+    	    <PocetJader rozmezi="1-8">2</PocetJader>
+    	    <TypProcesoru vyrobce="Intel">Core i3 7100U</TypProcesoru>
+    	    <PametRAM velikost="GB">4</PametRAM>
+    		<TypPameti>DDR4</TypPameti>
+    	    <Harddisk velikost="GB">128</Harddisk>
+    		<TypHDD>SSD</TypHDD>
+    	    <GrafickaKarta velikost="GB">2</GrafickaKarta>
+    		<TypGrafiky>Intel</TypGrafiky>
+    	</Vykon>
+    	<Vystupy>
+    		<USB2.0>ano</USB2.0>
+    		<USB3.0>ano</USB3.0>
+    		<HDMI>ano</HDMI>
+    		<DVI>ne</DVI>
+    		<VGA>ano</VGA>
+    		<Jack3.5mm>ano</Jack3.5mm>
+    		<LAN>ne</LAN>
+    	</Vystupy>
+    	<Vybava>
+    		<Wifi>ano</Wifi>
+    		<Bluetooth>ano</Bluetooth>
+    		<OperacniSystem>ano</OperacniSystem>
+    		<PodsvicenaKlavesnice>ano</PodsvicenaKlavesnice>
+    		<CteckaKaret>ano</CteckaKaret>
+    		<NumerickaKlavesnice>ne</NumerickaKlavesnice>
+    		<OptickaMechanika>ne</OptickaMechanika>
+    		<CteckaOtiskuPrstu>ne</CteckaOtiskuPrstu>
+    		<DotykovyDisplej>ne</DotykovyDisplej>
+    	</Vybava>
+         <OS TypOS="Windows" VerzeOS="10 Home"/>
+    </notebook>
+    <notebook>
+        <Vyrobce>HP</Vyrobce>
+        <Typ>ProBook 430 G4</Typ>
+        <Barva>stříbrná</Barva>
+        <Prodej>
+            <Cena mena="Kč">22990</Cena>
+            <Alza>ano</Alza>
+            <Mall>ano</Mall>
+            <CZC.cz>ano</CZC.cz>
+            <Datart>ano</Datart>
+            <Mironet>ano</Mironet>
+        </Prodej>
+        <Displej>
+            <Uhlopricka>13.3"</Uhlopricka>
+            <Rozliseni>1920x1080</Rozliseni>
+            <TypPanelu>IPS</TypPanelu>
+            <TypDispleje>Antireflexní</TypDispleje>
+        </Displej>
+        <Rozmery Výška="19.8" Šířka="330" Hloubka="233.5"/>
+        <Hmotnost Hmotnost="1500"/>
+        <Baterie Kapacita="48"/>
+        <Vykon>
+            <FrekvenceProcesoru jednotky="mHz">2500</FrekvenceProcesoru>
+            <PocetJader rozmezi="1-8">2</PocetJader>
+            <TypProcesoru vyrobce="Intel">Intel Core i5 7200U</TypProcesoru>
+            <PametRAM velikost="GB">4</PametRAM>
+            <TypPameti>DDR4</TypPameti>
+            <Harddisk velikost="GB">256</Harddisk>
+            <TypHDD>SSD</TypHDD>
+            <GrafickaKarta velikost="GB">2</GrafickaKarta>
+            <TypGrafiky>Intel</TypGrafiky>
+        </Vykon>
+        <Vystupy>
+            <USB2.0>ano</USB2.0>
+            <USB3.0>ano</USB3.0>
+            <HDMI>ano</HDMI>
+            <DVI>ne</DVI>
+            <VGA>ano</VGA>
+            <Jack3.5mm>ano</Jack3.5mm>
+            <LAN>ne</LAN>
+        </Vystupy>
+        <Vybava>
+            <Wifi>ano</Wifi>
+            <Bluetooth>ano</Bluetooth>
+            <OperacniSystem>ano</OperacniSystem>
+            <PodsvicenaKlavesnice>ano</PodsvicenaKlavesnice>
+            <CteckaKaret>ano</CteckaKaret>
+            <NumerickaKlavesnice>ne</NumerickaKlavesnice>
+            <OptickaMechanika>ne</OptickaMechanika>
+            <CteckaOtiskuPrstu>ne</CteckaOtiskuPrstu>
+            <DotykovyDisplej>ne</DotykovyDisplej>
+        </Vybava>
+        <OS TypOS="Windows" VerzeOS="10 Pro"/>
+    </notebook>
+    <notebook>
+        <Vyrobce>DELL</Vyrobce>
+        <Typ>Inspiron 15 (7000) Gaming Black</Typ>
+        <Barva>černý</Barva>
+        <Prodej>
+            <Cena mena="Kč">42190</Cena>
+            <Alza>ano</Alza>
+            <Mall>ano</Mall>
+            <CZC.cz>ano</CZC.cz>
+            <Datart>ne</Datart>
+            <Mironet>ne</Mironet>
+        </Prodej>
+        <Displej>
+            <Uhlopricka>15.6"</Uhlopricka>
+            <Rozliseni>3840x2160</Rozliseni>
+            <TypPanelu>IPS</TypPanelu>
+            <TypDispleje>Antireflexní</TypDispleje>
+        </Displej>
+        <Rozmery Výška="25.3" Šířka="383" Hloubka="265"/>
+        <Hmotnost Hmotnost="2720"/>
+        <Baterie Kapacita="74"/>
+        <Vykon>
+            <FrekvenceProcesoru jednotky="mHz">2800</FrekvenceProcesoru>
+            <PocetJader rozmezi="1-8">4</PocetJader>
+            <TypProcesoru vyrobce="Intel">Intel Core i7 7700HQ</TypProcesoru>
+            <PametRAM velikost="GB">16</PametRAM>
+            <TypPameti>DDR4</TypPameti>
+            <Harddisk velikost="GB">512</Harddisk>
+            <TypHDD>SSD</TypHDD>
+            <GrafickaKarta velikost="GB">4</GrafickaKarta>
+            <TypGrafiky>Intel</TypGrafiky>
+        </Vykon>
+        <Vystupy>
+            <USB2.0>ano</USB2.0>
+            <USB3.0>ano</USB3.0>
+            <HDMI>ano</HDMI>
+            <DVI>ne</DVI>
+            <VGA>ano</VGA>
+            <Jack3.5mm>ano</Jack3.5mm>
+            <LAN>ne</LAN>
+        </Vystupy>
+        <Vybava>
+            <Wifi>ano</Wifi>
+            <Bluetooth>ano</Bluetooth>
+            <OperacniSystem>ano</OperacniSystem>
+            <PodsvicenaKlavesnice>ano</PodsvicenaKlavesnice>
+            <CteckaKaret>ano</CteckaKaret>
+            <NumerickaKlavesnice>ano</NumerickaKlavesnice>
+            <OptickaMechanika>ne</OptickaMechanika>
+            <CteckaOtiskuPrstu>ne</CteckaOtiskuPrstu>
+            <DotykovyDisplej>ne</DotykovyDisplej>
+        </Vybava>
+        <OS TypOS="Windows" VerzeOS="10 Pro"/>
+    </notebook>
+</katalog>
+
+
+
+
